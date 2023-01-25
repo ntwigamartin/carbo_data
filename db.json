@@ -1,17 +1,15 @@
-{
-  "data":[
-    {electricity: {
-      electricity_value: "",
-      carbon_kg: "" }
+[{
+    electricity: {
+        electricity_value: "",
+        carbon_kg: "",
     },
-    {shipping: {
+    shipping: {
         weight_value: "",
         distance_value: "",
-        carbon_kg: "" }
+        carbon_kg: "",
     },
-    {fuel: {
+    fuel: {
         fuel_source_value: "",
-        carbon_kg: "" }
+        carbon_kg: "",
     }
-  ]
-}
+  }]

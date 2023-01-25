@@ -1,17 +1,17 @@
 {
- electricity: {
-        electricity_value: "",
-        carbon_kg: ""
+ "electricity": {
+        "electricity_value": "2",
+        "carbon_kg": "20"
     },
     
-shipping: {
-        weight_value: "",
-        distance_value: "",
-        carbon_kg: ""
+"shipping": {
+        "weight_value": "7",
+        "distance_value": "43",
+        "carbon_kg": "14"
     },
-fuel: {
-        fuel_source_value: "",
-        carbon_kg: ""
+"fuel": {
+        "fuel_source_value": "57",
+        "carbon_kg": "71"
     }
   
 }

@@ -1,4 +1,5 @@
-{"data":[{
+[
+ {
  "electricity": {
         "electricity_value": "2",
         "carbon_kg": "20"
@@ -13,5 +14,5 @@
         "fuel_source_value": "57",
         "carbon_kg": "71"
     }
- }]
-}
+ }
+]

@@ -1,13 +1,49 @@
 {
-    "data": {
-        "Electricity": {
-            "carbon_kg": 23.4
-        },
-        "Fuel": {
-            "carbon_kg": 12.5
-        },
-        "Shipping": {
-            "carbon_kg": 17.6
-        }
+    "Data": {
+        "electricity": [
+            {
+                "usage": "10kWh",
+                "cost": "$50"
+            },
+            {
+                "usage": "15kWh",
+                "cost": "$75"
+            }
+        ],
+        "fuel": [
+            {
+                "usage": "20 gallons",
+                "cost": "$100"
+            },
+            {
+                "usage": "30 gallons",
+                "cost": "$150"
+            }
+        ],
+        "shipping": [
+            {
+                "destination": "New York",
+                "cost": "$200"
+            },
+            {
+                "destination": "California",
+                "cost": "$250"
+            }
+        ]
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

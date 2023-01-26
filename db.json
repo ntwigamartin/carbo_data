@@ -1,36 +1,87 @@
 {
-    "Data": {
-        "electricity": [
-            {
-                "usage": "10kWh",
-                "cost": "$50"
-            },
-            {
-                "usage": "15kWh",
-                "cost": "$75"
-            }
-        ],
-        "fuel": [
-            {
-                "usage": "20 gallons",
-                "cost": "$100"
-            },
-            {
-                "usage": "30 gallons",
-                "cost": "$150"
-            }
-        ],
-        "shipping": [
-            {
-                "destination": "New York",
-                "cost": "$200"
-            },
-            {
-                "destination": "California",
-                "cost": "$250"
-            }
-        ]
-    }
+  "data": {
+    "electricity": [
+      {
+        "id": 1,
+        "electricity_value": 42,
+        "carbon_g": 8778,
+        "carbon_lb": 19.35,
+        "carbon_kg": 8.78,
+        "carbon_mt": 0.01
+      },
+      {
+        "id": 2,
+        "electricity_value": 63,
+        "carbon_g": 13167,
+        "carbon_lb": 29.03,
+        "carbon_kg": 13.17,
+        "carbon_mt": 0.01
+      },
+      {
+        "id": 3,
+        "electricity_value": 90,
+        "carbon_g": 18810,
+        "carbon_lb": 41.47,
+        "carbon_kg": 18.81,
+        "carbon_mt": 0.02
+      }
+    ],
+    "fuel": [
+      {
+        "id": 30,
+        "fuel_source_value": 2,
+        "carbon_g": 146320,
+        "carbon_lb": 322.58,
+        "carbon_kg": 146.32,
+        "carbon_mt": 0.15
+      },
+      {
+        "id": 31,
+        "fuel_source_value": 9,
+        "carbon_g": 658440,
+        "carbon_lb": 1451.61,
+        "carbon_kg": 658.44,
+        "carbon_mt": 0.66
+      },
+      {
+        "id": 32,
+        "fuel_source_value": 13,
+        "carbon_g": 951080,
+        "carbon_lb": 2096.77,
+        "carbon_kg": 951.08,
+        "carbon_mt": 0.95
+      }
+    ],
+    "shipping": [
+      {
+        "id": 70,
+        "weight_value": 200,
+        "distance_value": 2000,
+        "carbon_g": 25600,
+        "carbon_lb": 56.44,
+        "carbon_kg": 25.6,
+        "carbon_mt": 0.03
+      },
+      {
+        "id": 71,
+        "weight_value": 900,
+        "distance_value": 6000,
+        "carbon_g": 345600,
+        "carbon_lb": 761.92,
+        "carbon_kg": 345.6,
+        "carbon_mt": 0.35
+      },
+      {
+        "id": 72,
+        "weight_value": 1300,
+        "distance_value": 4000,
+        "carbon_g": 332800,
+        "carbon_lb": 733.7,
+        "carbon_kg": 332.8,
+        "carbon_mt": 0.33
+      }
+    ]
+  }
 }
 
 
